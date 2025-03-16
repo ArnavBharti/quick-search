@@ -13,7 +13,7 @@ function renderHomePage() {
 </ul>
 <h2>Usage</h2>
 <ol>
-    <li>Add <i>http://localhost:5174/?s=%s</i> as your default search engine.</li>
+    <li>Add <i>https://search.arnavbharti.com/?s=%s</i> as your default search engine.</li>
     <li>Enter your search query in the search bar with your desired bang.</li>
 </ol>
 <button type="button" id="copyButton">Copy Quick Search's URL</button>
@@ -28,7 +28,7 @@ function renderHomePage() {
 
   document.getElementById("copyButton")!.addEventListener("click", () => {
     navigator.clipboard
-      .writeText("https://localhost:5174/?s=%s")
+      .writeText("https://search.arnavbharti.com/?s=%s")
       .then(() => {
         alert("URL copied to clipboard!");
       })
