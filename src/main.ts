@@ -18,7 +18,7 @@ function renderHomePage() {
 </ol>
 <button type="button" id="copyButton">Copy Quick Search's URL</button>
 <p>
-<a href="https://support.mozilla.org/en-US/kb/add-or-remove-search-engine-firefox">How to add a custom search engine in Firefox-based browsers.</a><br>
+  <a href="https://support.mozilla.org/en-US/kb/add-or-remove-search-engine-firefox">How to add a custom search engine in Firefox-based browsers.</a><br>
 <a href="https://support.google.com/chrome/answer/95426">How to add a custom search engine in Chromium-based browsers.</a>
 </p>
 <footer>
