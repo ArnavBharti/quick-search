@@ -22,7 +22,7 @@ function renderHomePage() {
 <a href="https://support.google.com/chrome/answer/95426">How to add a custom search engine in Chromium-based browsers.</a>
 </p>
 <footer>
-    <a href="https://github.com/arnavbharti">Quick Search's GitHub</a> • <a href="https://arnavbharti.com">Arnav's Home Page</a>
+    <a href="https://github.com/ArnavBharti/quick-search">Quick Search's GitHub</a> • <a href="https://arnavbharti.com">Arnav's Home Page</a>
 </footer>
 `;
 
