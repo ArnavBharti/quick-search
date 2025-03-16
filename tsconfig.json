@@ -20,5 +20,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src", "data/bangs.ts"]
+  "include": ["src", "data/bangs.ts", "data/bangs_filtered.ts"]
 }
