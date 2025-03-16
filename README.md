@@ -2,6 +2,10 @@
 
 This tools allows the user to quickly search or redirect to a website using bangs. Inspired by DuckDuckGo, this is a local implementation of that logic. This makes it really fast.
 
+## Bangs
+
+If you search `!g apple`. This will lookup `!g` which is Google Search and then search apple using it. The tool recognizes the first bang present in the query so `!g apple` and `apple !g` works the same. You can see the list of all bangs here: (DuckDuckGo Bangs)[https://duckduckgo.com/bangs].
+
 ## Usage
 
 1. Add https://search.arnavbharti.com/?s=%s as your default search engine.
