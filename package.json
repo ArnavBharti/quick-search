@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "bun ./scripts/filter_bangs.ts && tsc && vite build",
     "preview": "vite preview",
-    "filter": "bun .\\scripts\\filter_bangs.ts"
+    "filter": "bun ./scripts/filter_bangs.ts"
   },
   "devDependencies": {
     "@types/node": "^22.13.10",
